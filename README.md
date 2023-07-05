@@ -15,21 +15,21 @@
 --
 ## 변수설명
 
-teamId - 경기내의 파랑팀 (100) / 경기내의 빨강팀 (200)
-win - 승 / 패 , target_variable로 사용할 변수입니다. (W/F)
-firstBlood - 가장 먼저 상대팀의 챔피언을 킬했는지 여부. (T/F)
-firstTower - 가장 먼저 상대팀의 포탑을 깻는지 여부. (T/F)
-firstinhibitor - 가장 먼저 상대팀의 억제기를 깻는지 여부. (T/F)
-firstBaron - 가장 먼저 바론을 먹었는지 여부. (T/F)
-firstDragon - 가장 먼저 드래곤을 먹었는지 여부. (T/F)
-firstRiftHerald - 가장 먼저 전령을 먹었는지 여부. (T/F)
-towerKills - 깬 타워의 수(연속형변수)
-inhibitorKills - 깬 억제기의 수(연속형변수)
-baronKills - 처치한 바론의 수(연속형변수)
-dragonKills - 처치한 드래곤의 수(연속형변수)
-vilemawKills - 상관하지 않아도 되는 변수입니다.(5:5 게임에는 없는 오브젝트)
-riftHeraldKills - 처치한 전령의 수 (게임 내에서 전령은 20분전까지 한번밖에 나오지 않으므로 사실상 0과1로 나뉩니다.)
-dominionVictoryScore - 상관하지 않아도 되는 변수입니다.
-gameDuration - 경기 시간, 초라고 생각하시면 됩니다.(연속형변수)
+- teamId - 경기내의 파랑팀 (100) / 경기내의 빨강팀 (200)
+- win - 승 / 패 , target_variable로 사용할 변수입니다. (W/F)
+- firstBlood - 가장 먼저 상대팀의 챔피언을 킬했는지 여부. (T/F)
+- firstTower - 가장 먼저 상대팀의 포탑을 깻는지 여부. (T/F)
+- firstinhibitor - 가장 먼저 상대팀의 억제기를 깻는지 여부. (T/F)
+- firstBaron - 가장 먼저 바론을 먹었는지 여부. (T/F)
+- firstDragon - 가장 먼저 드래곤을 먹었는지 여부. (T/F)
+- firstRiftHerald - 가장 먼저 전령을 먹었는지 여부. (T/F)
+- towerKills - 깬 타워의 수(연속형변수)
+- inhibitorKills - 깬 억제기의 수(연속형변수)
+- baronKills - 처치한 바론의 수(연속형변수)
+- dragonKills - 처치한 드래곤의 수(연속형변수)
+- vilemawKills - 상관하지 않아도 되는 변수입니다.(5:5 게임에는 없는 오브젝트)
+- riftHeraldKills - 처치한 전령의 수 (게임 내에서 전령은 20분전까지 한번밖에 나오지 않으므로 사실상 0과1로 나뉩니다.)
+- dominionVictoryScore - 상관하지 않아도 되는 변수입니다.
+- gameDuration - 경기 시간, 초라고 생각하시면 됩니다.(연속형변수)
 
 --
