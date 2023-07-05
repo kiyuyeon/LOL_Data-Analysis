@@ -31,4 +31,5 @@ vilemawKills - 상관하지 않아도 되는 변수입니다.(5:5 게임에는 �
 riftHeraldKills - 처치한 전령의 수 (게임 내에서 전령은 20분전까지 한번밖에 나오지 않으므로 사실상 0과1로 나뉩니다.)
 dominionVictoryScore - 상관하지 않아도 되는 변수입니다.
 gameDuration - 경기 시간, 초라고 생각하시면 됩니다.(연속형변수)
+
 --
