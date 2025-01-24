@@ -11,27 +11,29 @@
 1) 데이터 수집
 
 -  RIOT GAMES에서 제공하는 API를 이용하여 2023시즌 동안의 최상의 티어 챌린저,그랜드마스터,마스터 티어에 플레이어의 순위를 결정하는 랭크 게임 데이터를 확보한다.
---
-## 변수설명
 
-- teamId - 경기내의 파랑팀 (100) / 경기내의 빨강팀 (200)
-- win - 승 / 패 , target_variable로 사용할 변수입니다. (W/F)
-- firstBlood - 가장 먼저 상대팀의 챔피언을 킬했는지 여부. (T/F)
-- firstTower - 가장 먼저 상대팀의 포탑을 깻는지 여부. (T/F)
-- firstinhibitor - 가장 먼저 상대팀의 억제기를 깻는지 여부. (T/F)
-- firstBaron - 가장 먼저 바론을 먹었는지 여부. (T/F)
-- firstDragon - 가장 먼저 드래곤을 먹었는지 여부. (T/F)
-- firstRiftHerald - 가장 먼저 전령을 먹었는지 여부. (T/F)
-- towerKills - 깬 타워의 수(연속형변수)
-- inhibitorKills - 깬 억제기의 수(연속형변수)
-- baronKills - 처치한 바론의 수(연속형변수)
-- dragonKills - 처치한 드래곤의 수(연속형변수)
-- vilemawKills - 상관하지 않아도 되는 변수입니다.(5:5 게임에는 없는 오브젝트)
-- riftHeraldKills - 처치한 전령의 수 (게임 내에서 전령은 20분전까지 한번밖에 나오지 않으므로 사실상 0과1로 나뉩니다.)
-- dominionVictoryScore - 상관하지 않아도 되는 변수입니다.
-- gameDuration - 경기 시간, 초 (연속형변수)
 
---
+2)변수설명
+
+| 변수명            | 설명                                                   |
+|-----------------|------------------------------------------------------|
+| teamId          | 경기 내 파랑팀 (100) / 빨강팀 (200)                        |
+| win             | 승 / 패, target_variable로 사용할 변수 (W/F)               |
+| firstBlood      | 첫 번째 상대 챔피언 처치 여부 (T/F)                        |
+| firstTower      | 첫 번째 타워 처치 여부 (T/F)                              |
+| firstinhibitor  | 첫 번째 억제기 처치 여부 (T/F)                            |
+| firstBaron      | 첫 번째 바론 처치 여부 (T/F)                              |
+| firstDragon     | 첫 번째 드래곤 처치 여부 (T/F)                            |
+| firstRiftHerald | 첫 번째 전령 처치 여부 (T/F)                             |
+| towerKills      | 처치한 타워 수 (연속형 변수)                             |
+| inhibitorKills  | 처치한 억제기 수 (연속형 변수)                           |
+| baronKills      | 처치한 바론 수 (연속형 변수)                             |
+| dragonKills     | 처치한 드래곤 수 (연속형 변수)                           |
+| vilemawKills    | 상관없음 (5:5 게임에는 없는 오브젝트)                   |
+| riftHeraldKills | 처치한 전령 수 (0 또는 1)                               |
+| dominionVictoryScore | 상관없음                                            |
+| gameDuration    | 경기 시간 (초, 연속형 변수)                              |
+
 3) 분석 목표
 리그 오브 레전드 승률에 영향을 미치는 주요 요소들을 분석하기 위해 Pandas로 데이터 전처리 후, Matplotlib을 활용하여 승률과 관련된 중요한 변수들을 시각화합니다. 주요 분석 목표는 승리/패배에 중요한 영향을 미친 요소들을 파악하는 것입니다.
 
